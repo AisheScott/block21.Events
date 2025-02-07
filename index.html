@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block21_Events</title>
+    <script src="./index.js" defer></script>
+    <link rel="stylesheet" href="./index.css" />
+</head>
+<body>
+    <header>
+        <h1>EventsGuide</h1>
+    </header>
+
+    <div id="new-party-form-container">
+        <form id="new-party-form">
+            <label for="name">
+                Name
+                <input type="text" id="name" name="name" placeholder="Name">
+              </label>
+              <label for="description">
+                Description
+                <textarea id="description" name="description" placeholder="Description"></textarea>
+              </label>
+              <label>
+                Date
+                <input type="date" name="date" />
+              </label>
+              <label for="Location">
+                Location
+                <textarea type="text" id="Location" name="Location" placeholder="Location"></textarea>
+              </label>
+              <button type="submit">Create</button>
+          </form>
+        </div>
+        <div id="partys-container"></div>
+</body>
+</html>
